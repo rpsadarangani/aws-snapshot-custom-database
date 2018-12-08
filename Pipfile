@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+yapf = "*"
+
+[packages]
+"boto3" = "*"
+paramiko = "*"
+
+[requires]
+python_version = "3.7"
